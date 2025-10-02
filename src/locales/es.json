@@ -1,0 +1,272 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy Luis Fernando Benavides Rengifo",
+    "title": "Arquitecto de Software Senior",
+    "titleHighlight": "22+ años | Fintech & E-commerce | Mercado Libre",
+    "subtitle": "Desarrollando soluciones de alto impacto para empresas líderes como Mercado Libre, Rappi, Nequi y Protección. Especializado en arquitectura de microservicios, fintech y transformación digital con resultados comprobados: 90% reducción de errores, 90% mejora en rendimiento de transacciones.",
+    "cta": "Ver mi trabajo",
+    "ctaSecondary": "Contactar"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Experiencia y trayectoria profesional",
+    "intro": "Magíster en Ingeniería de Software (PUJ Cali, becario destacado Gobernación del Valle) con 22+ años desarrollando soluciones de alto impacto para empresas tecnológicas líderes de Latinoamérica: Mercado Libre, Rappi, Nequi y Protección. Certificado PMI, Scrum Master, CAPM e ITIL V3.\n\nEspecializado en arquitectura de microservicios, fintech, e-commerce y transformación digital. Autodidacta comprometido con la excelencia técnica y la mejora continua.",
+    "education": {
+      "title": "Educación",
+      "degree": "Magíster en Ingeniería de Software",
+      "institution": "Pontificia Universidad Javeriana Cali"
+    },
+    "experience": {
+      "title": "Experiencia",
+      "years": "22+",
+      "yearsLabel": "años en la industria",
+      "projects": "100+",
+      "projectsLabel": "proyectos completados",
+      "clients": "50+",
+      "clientsLabel": "clientes satisfechos",
+      "sectorsLabel": "sectores atendidos"
+    },
+    "expertise": {
+      "title": "Áreas de Expertise",
+      "item1": "Microservices Architecture - Mercado Libre, Rappi, Nequi (90% reducción de errores)",
+      "item2": "Cloud & DevOps (AWS) - Lambda, EKS, Docker, Kubernetes, CI/CD",
+      "item3": "Backend Development - Java/Kotlin, Spring Boot, Kafka, Redis, PostgreSQL",
+      "item4": "Technical Leadership - Equipos fintech & e-commerce, Scrum Master certified",
+      "item5": "Digital Transformation - 90% mejora en rendimiento, 80% reducción de costos",
+      "item6": "Observability & Monitoring - Grafana, Splunk, New Relic, Kibana"
+    }
+  },
+  "techStack": {
+    "title": "Stack Tecnológico",
+    "subtitle": "Tecnologías y herramientas con las que trabajo",
+    "categories": {
+      "backend": {
+        "title": "Backend & Languages"
+      },
+      "cloud": {
+        "title": "Cloud & DevOps"
+      },
+      "databases": {
+        "title": "Databases & Messaging"
+      },
+      "observability": {
+        "title": "Observability & Monitoring"
+      }
+    }
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Soluciones especializadas basadas en experiencia comprobada",
+    "development": {
+      "title": "Desarrollo Backend & Arquitectura de Microservicios",
+      "description": "Desarrollo backend especializado con Java/Kotlin y Spring Boot. Diseño e implementación de arquitecturas de microservicios para fintech, e-commerce y banca digital. Experiencia comprobada en Mercado Libre, Rappi y Nequi.",
+      "features": [
+        "Backend con Java/Kotlin y Spring Boot",
+        "Arquitectura de microservicios escalables",
+        "APIs REST, Kafka, Redis, PostgreSQL",
+        "Patrones: Circuit Breaker, Saga, Event Sourcing",
+        "Soluciones para fintech y e-commerce"
+      ]
+    },
+    "architecture": {
+      "title": "Cloud Architecture & DevOps",
+      "description": "Arquitectura cloud en AWS y implementación de prácticas DevOps. Migración de sistemas on-premise a la nube, containerización con Docker/Kubernetes y CI/CD. Logros: 90% mejora en rendimiento, reducción de despliegues de 20 a 2 minutos.",
+      "features": [
+        "AWS: Lambda, EKS, S3, CloudWatch, SNS",
+        "Docker, Kubernetes, containerización",
+        "CI/CD: Jenkins, GitLab, Azure DevOps",
+        "Observabilidad: Grafana, Splunk, New Relic",
+        "Migración on-premise a cloud"
+      ]
+    },
+    "consulting": {
+      "title": "Liderazgo Técnico & Transformación Digital",
+      "description": "Liderazgo de equipos técnicos en proyectos críticos y transformación digital. Implementación de metodologías ágiles, optimización de procesos y mentoría técnica. Resultados: 80% reducción de costos, 50% mejora en curva de aprendizaje.",
+      "features": [
+        "Liderazgo de equipos técnicos",
+        "Implementación de Scrum y metodologías ágiles",
+        "Modernización de sistemas legacy",
+        "Reducción de costos operativos",
+        "Mentoría y capacitación técnica"
+      ]
+    }
+  },
+  "portfolio": {
+    "title": "Portafolio",
+    "subtitle": "Proyectos destacados",
+    "viewProject": "Ver proyecto",
+    "techStack": "Tecnologías",
+    "tabs": {
+      "all": "Destacados",
+      "fintech": "Fintech & E-commerce",
+      "cloud": "Cloud & DevOps",
+      "education": "Educación",
+      "health": "Salud",
+      "others": "Otros"
+    },
+    "projects": {
+      "lowcode": {
+        "title": "Estudio de factibilidad para implementación de plataforma low-code",
+        "description": "Proyecto de grado para optar al título de Magíster en Ingeniería de Software. Estudio de factibilidad para la implementación de una plataforma low-code en la Pontificia Universidad Javeriana, seccional Cali.",
+        "role": "Investigador y Arquitecto",
+        "impact": "Proyecto de Maestría - PUJ Cali",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2020/01/estudio-de-factibilidad-para-la.html"
+      },
+      "freedcamp": {
+        "title": "Implementación proyecto Web con Spring Boot - API REST Freedcamp",
+        "description": "Prueba técnica para validar habilidades de programación. Invocación de API REST de Freedcamp.",
+        "role": "Desarrollador Backend",
+        "impact": "Integración con API externa",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2020/01/implementacion-proyecto-web-con.html"
+      },
+      "apirest": {
+        "title": "Implementación proyecto API REST con Spring Boot",
+        "description": "Prueba técnica para validar habilidades de programación. Desarrollo de API REST con Spring Boot.",
+        "role": "Desarrollador Full Stack",
+        "impact": "Arquitectura REST moderna",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/12/implementacion-proyecto-api-rest-con.html"
+      },
+      "bootstrap": {
+        "title": "Implementación proyecto Web con Spring Boot y Bootstrap",
+        "description": "Prueba técnica para Full Stack Developer. Desarrollo web con Spring Boot y Bootstrap.",
+        "role": "Desarrollador Full Stack",
+        "impact": "Desarrollo Frontend y Backend",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/11/implementacion-proyecto-web-con.html"
+      },
+      "lambda": {
+        "title": "Implementación de servicios API REST mediante AWS Lambda",
+        "description": "Proyecto final de Tópicos Avanzados de Ingeniería de Software. Tres servicios API REST con AWS Lambda.",
+        "role": "Arquitecto Cloud",
+        "impact": "Arquitectura Serverless AWS",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/11/implementacion-de-servicios-api-rest.html"
+      },
+      "sms": {
+        "title": "Implementación de envío de mensajes SMS",
+        "description": "Permite el envío de mensajes SMS a afiliados y empleadores de una entidad promotora de salud.",
+        "role": "Desarrollador Backend",
+        "impact": "Sector Salud - EPS",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/08/implementacion-de-envio-de-mensajes-sms.html"
+      },
+      "ci": {
+        "title": "Implementación de Integración continua proyecto WebStore",
+        "description": "Proyecto final de Construcción y Pruebas de Software. Integración continua, pruebas automatizadas y análisis estático.",
+        "role": "DevOps Engineer",
+        "impact": "CI/CD y Testing",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/implementacion-de-integracion-continua.html"
+      },
+      "patrones": {
+        "title": "Implementación de patrones de diseño a un proyecto de pregrado",
+        "description": "Proyecto final de Estrategias y Patrones de Diseño de Software. Implementación de patrones de diseño.",
+        "role": "Arquitecto de Software",
+        "impact": "Patrones de Diseño",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/implementacion-de-patrones-de-diseno-un.html"
+      },
+      "bolsa": {
+        "title": "Integración de la bolsa de empleo de egresados con PeopleSoft",
+        "description": "Permite crear usuarios institucionales a la plataforma externa del empleo.",
+        "role": "Desarrollador de Integraciones",
+        "impact": "Sector Educación",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/proyecto-que-integra-la-bolsa-de-empleo.html"
+      },
+      "salesforce": {
+        "title": "Integración CRM Sales Force con PeopleSoft",
+        "description": "Permite realizar seguimiento de los candidatos a admisión desde que se crea la oportunidad hasta que paga y se matricula.",
+        "role": "Desarrollador de Integraciones",
+        "impact": "Sector Educación - CRM",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/proyecto-que-integra-crm-sales-force.html"
+      },
+      "mega": {
+        "title": "Mejoramiento en la Gestión de las Autorizaciones y la Atención (MEGA)",
+        "description": "Garantiza la gestión de las prestaciones en salud (POS, NO POS, PAC Y POS Subsidiado), optimizando el proceso de atención.",
+        "role": "Arquitecto de Software",
+        "impact": "Sector Salud - EPS",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/mejoramiento-en-la-gestion-de-las.html"
+      },
+      "fosyga": {
+        "title": "Software para cumplir con Resolución de Ley 458 del 2013 (Fosyga)",
+        "description": "Cumple con Resolución de Ley 458 del 2013, por la cual se unifica el procedimiento de recobro ante el Fondo de Solidaridad y Garantía.",
+        "role": "Desarrollador Backend",
+        "impact": "Sector Salud - Cumplimiento Legal",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/desarrollo-e-implementacion-de-software.html"
+      },
+      "arco": {
+        "title": "Software para control de órdenes de producción (ARCO)",
+        "description": "Permite realizar seguimiento a las órdenes durante el proceso de producción.",
+        "role": "Desarrollador Full Stack",
+        "impact": "Sector Industrial",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/diseno-desarrollo-e-implementacion-de.html"
+      },
+      "tarjeta": {
+        "title": "Software para control y administración de tarjetas de crédito",
+        "description": "Permite llevar un registro de clientes de la tarjeta propia de la empresa desde su solicitud hasta la entrega.",
+        "role": "Desarrollador Backend",
+        "impact": "Sector Comercial",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/diseno-desarrollo-y-implementacion-de.html"
+      },
+      "softcontrol": {
+        "title": "Aplicativo SOFTCONTROL - Gestión de procesos disciplinarios",
+        "description": "Creación de módulos de consulta, estadísticas, control y seguimiento, reportes, usuario gerencial y recepción de quejas.",
+        "role": "Desarrollador Full Stack",
+        "impact": "Sector Público",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/diseno-y-desarrollo-de-un-aplicativo.html"
+      },
+      "inventarios": {
+        "title": "Software para el control de inventarios",
+        "description": "Permite realizar una captura de datos del proceso de facturación y a partir de esta información la generación de variados informes.",
+        "role": "Desarrollador Backend",
+        "impact": "Sector Comercial",
+        "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/diseno-y-desarrollo-de-software-para-el.html"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Hablemos de tu proyecto",
+    "description": "¿Tienes un proyecto en mente o necesitas consultoría técnica? Estoy disponible para nuevas oportunidades y colaboraciones.",
+    "form": {
+      "name": "Nombre completo",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "tu@email.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿En qué puedo ayudarte?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te responderé pronto.",
+      "error": "Error al enviar. Intenta nuevamente."
+    },
+    "info": {
+      "email": "lfbenavides@gmail.com",
+      "location": "Disponible remotamente",
+      "availability": "Disponible para proyectos"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "twitter": "Twitter"
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "dark": "Modo oscuro",
+    "light": "Modo claro"
+  },
+  "language": {
+    "toggle": "Cambiar idioma",
+    "es": "Español",
+    "en": "English"
+  }
+}

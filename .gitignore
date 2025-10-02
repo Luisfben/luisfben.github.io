@@ -8,3 +8,21 @@
 **/._.DS_Store
 # Carpeta bin
 bin/*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build
+dist/
+dist-ssr/
+*.local
+
+# Editor
+.vscode/
+*.swp
+*.swo
+*~

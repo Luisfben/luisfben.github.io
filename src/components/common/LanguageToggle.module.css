@@ -1,0 +1,32 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-lg);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.toggle:hover {
+  border-color: var(--primary);
+  transform: scale(1.05);
+}
+
+.lang {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.lang.active {
+  color: var(--primary);
+}
+
+.separator {
+  color: var(--border);
+}
