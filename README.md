@@ -1,71 +1,72 @@
-# Portfolio Profesional - Luis Fernando Benavides Rengifo
+# Professional Portfolio - Luis Fernando Benavides Rengifo
 
-Portafolio web moderno y profesional construido con React + Vite, diseñado para reflejar autoridad técnica contemporánea y experiencia senior en desarrollo de software.
+Modern and professional web portfolio built with React + Vite, designed to reflect contemporary technical authority and senior software development experience.
 
-## 🚀 Características
+## 🚀 Features
 
-- ✨ **Diseño Moderno 2024-2025**: Glassmorphism, dark/light mode, micro-interacciones
-- 🌐 **Multiidioma (i18n)**: Soporte completo para Español e Inglés
-- 🎨 **Sistema de Temas**: Modo oscuro/claro conmutable en tiempo real
-- 📱 **Responsive Design**: Optimizado para todos los dispositivos
-- ⚡ **Performance**: Build optimizado con Vite
-- 🎯 **SEO Friendly**: Meta tags y estructura semántica
-- ♿ **Accesibilidad**: ARIA labels y navegación por teclado
+- ✨ **Modern Design 2024-2025**: Glassmorphism, dark/light mode, micro-interactions
+- 🌐 **Multilingual (i18n)**: Full support for Spanish and English
+- 🎨 **Theme System**: Real-time switchable dark/light mode
+- 📱 **Responsive Design**: Optimized for all devices
+- ⚡ **Performance**: Optimized build with Vite
+- 🎯 **SEO Friendly**: Meta tags and semantic structure
+- ♿ **Accessibility**: ARIA labels and keyboard navigation
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
-| Tecnología | Versión | Propósito |
-|------------|---------|-----------|
-| **React** | 18.2.0 | Framework UI |
-| **Vite** | 5.0.8 | Build tool y dev server |
-| **CSS Modules** | - | Estilos con scope local |
-| **Context API** | - | Estado global (tema/idioma) |
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| **React** | 18.2.0 | UI Framework |
+| **Vite** | 5.0.8 | Build tool and dev server |
+| **CSS Modules** | - | Locally scoped styles |
+| **Context API** | - | Global state (theme/language) |
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
 /
 ├── public/
-│   ├── assets/              # Imágenes, iconos
-│   └── favicon.svg          # Favicon del sitio
+│   ├── assets/              # Images, icons
+│   └── favicon.svg          # Site favicon
 │
 ├── src/
 │   ├── components/
-│   │   ├── common/          # Componentes reutilizables
+│   │   ├── common/          # Reusable components
 │   │   │   ├── Button.jsx
 │   │   │   ├── Card.jsx
 │   │   │   ├── SectionTitle.jsx
 │   │   │   ├── ThemeToggle.jsx
 │   │   │   └── LanguageToggle.jsx
 │   │   │
-│   │   ├── layout/          # Componentes de layout
+│   │   ├── layout/          # Layout components
 │   │   │   ├── Header.jsx
 │   │   │   ├── Footer.jsx
 │   │   │   └── Layout.jsx
 │   │   │
-│   │   └── sections/        # Secciones de la página
+│   │   └── sections/        # Page sections
 │   │       ├── Hero.jsx
 │   │       ├── About.jsx
+│   │       ├── TechStack.jsx
 │   │       ├── Services.jsx
 │   │       ├── Portfolio.jsx
 │   │       └── Contact.jsx
 │   │
 │   ├── contexts/
-│   │   ├── ThemeContext.jsx      # Manejo de tema dark/light
-│   │   └── LanguageContext.jsx   # Manejo de idioma ES/EN
+│   │   ├── ThemeContext.jsx      # Dark/light theme management
+│   │   └── LanguageContext.jsx   # ES/EN language management
 │   │
 │   ├── locales/
-│   │   ├── es.json          # Traducciones en español
-│   │   └── en.json          # Traducciones en inglés
+│   │   ├── es.json          # Spanish translations
+│   │   └── en.json          # English translations
 │   │
 │   ├── styles/
-│   │   ├── variables.css    # Variables CSS (colores, tipografías)
-│   │   └── global.css       # Estilos globales y reset
+│   │   ├── variables.css    # CSS variables (colors, typography)
+│   │   └── global.css       # Global styles and reset
 │   │
 │   ├── hooks/
-│   │   └── useIntersectionObserver.js  # Hook para animaciones
+│   │   └── useIntersectionObserver.js  # Animation hook
 │   │
-│   ├── App.jsx              # Componente principal
+│   ├── App.jsx              # Main component
 │   └── main.jsx             # Entry point
 │
 ├── index.html
@@ -74,63 +75,63 @@ Portafolio web moderno y profesional construido con React + Vite, diseñado para
 └── README.md
 ```
 
-### Ventajas de esta Arquitectura
+### Architecture Advantages
 
-- **Separación de concerns**: UI, lógica, datos y estilos claramente separados
-- **Escalabilidad**: Fácil agregar nuevas secciones o componentes
-- **Mantenibilidad**: Localización centralizada, componentes modulares
-- **Reutilización**: Componentes comunes compartidos en toda la app
+- **Separation of concerns**: UI, logic, data, and styles clearly separated
+- **Scalability**: Easy to add new sections or components
+- **Maintainability**: Centralized localization, modular components
+- **Reusability**: Common components shared throughout the app
 
-## 🚀 Instalación y Ejecución
+## 🚀 Installation and Setup
 
-### Requisitos Previos
+### Prerequisites
 
 - Node.js 16+ 
-- npm o yarn
+- npm or yarn
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar el repositorio
+# Clone the repository
 git clone https://github.com/luisfben/luisfben.github.io.git
 cd luisfben.github.io
 
-# Instalar dependencias
+# Install dependencies
 npm install
 ```
 
-### Desarrollo
+### Development
 
 ```bash
-# Iniciar servidor de desarrollo
+# Start development server
 npm run dev
 
-# La aplicación estará disponible en http://localhost:5173
+# The application will be available at http://localhost:5173
 ```
 
-### Build para Producción
+### Production Build
 
 ```bash
-# Generar build optimizado
+# Generate optimized build
 npm run build
 
-# Preview del build
+# Preview the build
 npm run preview
 ```
 
-## 🌐 Sistema de Internacionalización (i18n)
+## 🌐 Internationalization System (i18n)
 
-### Cómo Funciona
+### How It Works
 
-El sistema i18n utiliza **React Context API** + archivos JSON para manejar traducciones:
+The i18n system uses **React Context API** + JSON files to handle translations:
 
-1. **Archivos de traducción**: `src/locales/es.json` y `src/locales/en.json`
-2. **Context Provider**: `LanguageContext` carga dinámicamente las traducciones
-3. **Hook personalizado**: `useLanguage()` proporciona función `t()` para traducir
+1. **Translation files**: `src/locales/es.json` and `src/locales/en.json`
+2. **Context Provider**: `LanguageContext` dynamically loads translations
+3. **Custom hook**: `useLanguage()` provides `t()` function for translating
 
-### Agregar/Modificar Traducciones
+### Add/Modify Translations
 
-Edita los archivos JSON en `src/locales/`:
+Edit the JSON files in `src/locales/`:
 
 ```json
 // src/locales/es.json
@@ -145,7 +146,7 @@ Edita los archivos JSON en `src/locales/`:
 }
 ```
 
-### Usar Traducciones en Componentes
+### Use Translations in Components
 
 ```jsx
 import { useLanguage } from '../../contexts/LanguageContext';
@@ -157,21 +158,21 @@ const MyComponent = () => {
 };
 ```
 
-### Agregar un Nuevo Idioma
+### Add a New Language
 
-1. Crear archivo `src/locales/[codigo].json` (ej: `fr.json`)
-2. Copiar estructura de `es.json` y traducir
-3. Agregar opción en `LanguageToggle.jsx`:
+1. Create file `src/locales/[code].json` (e.g., `fr.json`)
+2. Copy structure from `es.json` and translate
+3. Add option in `LanguageToggle.jsx`:
 
 ```jsx
 <button onClick={() => setLanguage('fr')}>FR</button>
 ```
 
-## 🎨 Sistema de Temas (Dark/Light Mode)
+## 🎨 Theme System (Dark/Light Mode)
 
-### Variables CSS
+### CSS Variables
 
-Los temas se definen en `src/styles/variables.css`:
+Themes are defined in `src/styles/variables.css`:
 
 ```css
 :root[data-theme="dark"] {
@@ -187,9 +188,9 @@ Los temas se definen en `src/styles/variables.css`:
 }
 ```
 
-### Cambiar Tema
+### Change Theme
 
-El tema se maneja con `ThemeContext`:
+The theme is managed with `ThemeContext`:
 
 ```jsx
 import { useTheme } from '../../contexts/ThemeContext';
@@ -201,28 +202,28 @@ const MyComponent = () => {
 };
 ```
 
-## 📝 Modificar Contenido
+## 📝 Modify Content
 
-### Proyectos del Portfolio
+### Portfolio Projects
 
-Edita las traducciones en `src/locales/es.json` y `en.json`:
+Edit the translations in `src/locales/es.json` and `en.json`:
 
 ```json
 {
   "portfolio": {
     "projects": {
       "myProject": {
-        "title": "Mi Proyecto",
-        "description": "Descripción del proyecto",
-        "role": "Mi rol",
-        "impact": "Impacto logrado"
+        "title": "My Project",
+        "description": "Project description",
+        "role": "My role",
+        "impact": "Impact achieved"
       }
     }
   }
 }
 ```
 
-Luego agrega el proyecto en `Portfolio.jsx`:
+Then add the project in `Portfolio.jsx`:
 
 ```jsx
 const projects = [
@@ -234,23 +235,23 @@ const projects = [
 ];
 ```
 
-### Servicios
+### Services
 
-Similar al portfolio, edita las traducciones y actualiza `Services.jsx`.
+Similar to portfolio, edit the translations and update `Services.jsx`.
 
-### Testimonios
+### Testimonials
 
-Los testimonios se definen completamente en los archivos de traducción:
+Testimonials are completely defined in the translation files:
 
 ```json
 {
   "testimonials": {
     "items": [
       {
-        "name": "Cliente",
-        "role": "Cargo",
-        "company": "Empresa",
-        "text": "Testimonio...",
+        "name": "Client",
+        "role": "Position",
+        "company": "Company",
+        "text": "Testimonial...",
         "rating": 5
       }
     ]
@@ -258,37 +259,37 @@ Los testimonios se definen completamente en los archivos de traducción:
 }
 ```
 
-## 🎨 Personalización de Estilos
+## 🎨 Style Customization
 
-### Colores
+### Colors
 
-Modifica las variables en `src/styles/variables.css`:
-
-```css
-:root {
-  --primary: #0ea5e9;      /* Color primario */
-  --primary-2: #22d3ee;    /* Color primario secundario */
-  --accent: #a78bfa;       /* Color de acento */
-}
-```
-
-### Tipografías
-
-Las fuentes se cargan desde Google Fonts en `index.html`. Para cambiar:
-
-1. Actualiza el link en `index.html`
-2. Modifica las variables en `variables.css`:
+Modify the variables in `src/styles/variables.css`:
 
 ```css
 :root {
-  --font-primary: 'TuFuente', sans-serif;
-  --font-mono: 'TuFuenteMono', monospace;
+  --primary: #0ea5e9;      /* Primary color */
+  --primary-2: #22d3ee;    /* Secondary primary color */
+  --accent: #a78bfa;       /* Accent color */
 }
 ```
 
-### Espaciado y Tamaños
+### Typography
 
-Sistema de spacing basado en 8px:
+Fonts are loaded from Google Fonts in `index.html`. To change:
+
+1. Update the link in `index.html`
+2. Modify the variables in `variables.css`:
+
+```css
+:root {
+  --font-primary: 'YourFont', sans-serif;
+  --font-mono: 'YourMonoFont', monospace;
+}
+```
+
+### Spacing and Sizes
+
+Spacing system based on 8px:
 
 ```css
 :root {
@@ -307,92 +308,92 @@ Sistema de spacing basado en 8px:
 # Build
 npm run build
 
-# Deploy (configurar GitHub Pages para servir desde /dist)
+# Deploy (configure GitHub Pages to serve from /dist)
 ```
 
 ### Vercel
 
 ```bash
-# Conectar repositorio en vercel.com
-# Deploy automático en cada push
+# Connect repository on vercel.com
+# Automatic deploy on every push
 ```
 
 ### Netlify
 
 ```bash
-# Conectar repositorio en netlify.com
+# Connect repository on netlify.com
 # Build command: npm run build
 # Publish directory: dist
 ```
 
-## 🏗️ Decisiones de Arquitectura
+## 🏗️ Architecture Decisions
 
-### ¿Por qué React + Vite?
+### Why React + Vite?
 
-- **React**: Ecosistema maduro, componentes reutilizables, gran comunidad
-- **Vite**: Build ultra-rápido, HMR instantáneo, configuración mínima
+- **React**: Mature ecosystem, reusable components, large community
+- **Vite**: Ultra-fast build, instant HMR, minimal configuration
 
-### ¿Por qué CSS Modules?
+### Why CSS Modules?
 
-- Scoping automático (sin conflictos de nombres)
-- No requiere runtime (vs styled-components)
-- Fácil mantenimiento y debugging
-- Performance óptima
+- Automatic scoping (no name conflicts)
+- No runtime required (vs styled-components)
+- Easy maintenance and debugging
+- Optimal performance
 
-### ¿Por qué Context API en lugar de Redux?
+### Why Context API instead of Redux?
 
-- Suficiente para estado simple (tema/idioma)
-- Sin dependencias externas
-- Menos boilerplate
-- Nativo de React
+- Sufficient for simple state (theme/language)
+- No external dependencies
+- Less boilerplate
+- Native to React
 
-### ¿Por qué no localStorage?
+### Why not localStorage?
 
-- Restricción del entorno de desarrollo
-- Estado en memoria es suficiente para esta aplicación
-- Fácil migrar a localStorage en el futuro si es necesario
+- Development environment restriction
+- In-memory state is sufficient for this application
+- Easy to migrate to localStorage in the future if needed
 
-## 📋 Consideraciones Importantes
+## 📋 Important Considerations
 
 ### Performance
 
-- Imágenes optimizadas con `loading="lazy"`
-- CSS Modules para code splitting automático
-- Vite optimiza el bundle automáticamente
+- Optimized images with `loading="lazy"`
+- CSS Modules for automatic code splitting
+- Vite automatically optimizes the bundle
 
 ### SEO
 
-- Meta tags en `index.html`
-- Estructura semántica HTML5
-- Textos descriptivos en español e inglés
+- Meta tags in `index.html`
+- Semantic HTML5 structure
+- Descriptive texts in Spanish and English
 
-### Accesibilidad
+### Accessibility
 
-- ARIA labels en botones interactivos
-- Navegación por teclado funcional
-- Contraste de colores WCAG AA
+- ARIA labels on interactive buttons
+- Functional keyboard navigation
+- WCAG AA color contrast
 
 ### Browser Support
 
-- Navegadores modernos (últimas 2 versiones)
+- Modern browsers (last 2 versions)
 - Chrome, Firefox, Safari, Edge
 - Responsive: mobile, tablet, desktop
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-Este es un proyecto personal, pero sugerencias son bienvenidas:
+This is a personal project, but suggestions are welcome:
 
-1. Fork el proyecto
-2. Crea una rama (`git checkout -b feature/mejora`)
-3. Commit cambios (`git commit -m 'Agrega mejora'`)
-4. Push a la rama (`git push origin feature/mejora`)
-5. Abre un Pull Request
+1. Fork the project
+2. Create a branch (`git checkout -b feature/improvement`)
+3. Commit changes (`git commit -m 'Add improvement'`)
+4. Push to the branch (`git push origin feature/improvement`)
+5. Open a Pull Request
 
-## 📄 Licencia
+## 📄 License
 
-© 2025 Luis Fernando Benavides Rengifo. Todos los derechos reservados.
+© 2025 Luis Fernando Benavides Rengifo. All rights reserved.
 
-## 📧 Contacto
+## 📧 Contact
 
 - **Email**: lfbenavides@gmail.com
 - **LinkedIn**: [linkedin.com/in/luis-fernando-benavides-rengifo](https://www.linkedin.com/in/luis-fernando-benavides-rengifo)
@@ -401,4 +402,4 @@ Este es un proyecto personal, pero sugerencias son bienvenidas:
 
 ---
 
-**Hecho con ♥ por Luis Fernando Benavides Rengifo**
+**Made with ♥ by Luis Fernando Benavides Rengifo**
