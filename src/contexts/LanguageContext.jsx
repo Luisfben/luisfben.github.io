@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import es from '../locales/es.json';
 import en from '../locales/en.json';
+import { SITE } from '../content/site';
 
 const LanguageContext = createContext();
 
@@ -36,6 +37,12 @@ export const LanguageProvider = ({ children }) => {
 
   useEffect(() => {
     document.documentElement.lang = language;
+    document.title = SITE.title[language] ?? SITE.title.es;
+
+    const metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', SITE.description[language] ?? SITE.description.es);
+    }
   }, [language]);
 
   /**

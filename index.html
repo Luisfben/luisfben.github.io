@@ -4,14 +4,67 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Luis Fernando Benavides Rengifo - Desarrollo de Proyectos de Software con 22+ años de experiencia" />
+
+    <!--
+      Static defaults below describe the Spanish home page. This file is
+      still served as-is for both `/` and `/en/` until the prerender step
+      (next package) generates a distinct, language-correct file per route.
+      Values are kept in sync by hand with src/content/site.js for now.
+    -->
+    <title>Luis Fernando Benavides Rengifo — Ingeniero de Software, adopción de IA en equipos</title>
+    <meta name="description" content="Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia. Especializado en backend con Java, Kotlin y Node.js. Lidero la adopción de desarrollo asistido por IA en equipos de ingeniería." />
+    <link rel="canonical" href="https://luisfben.github.io/" />
+    <link rel="alternate" hreflang="es" href="https://luisfben.github.io/" />
+    <link rel="alternate" hreflang="en" href="https://luisfben.github.io/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://luisfben.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://luisfben.github.io/" />
+    <meta property="og:title" content="Luis Fernando Benavides Rengifo — Ingeniero de Software, adopción de IA en equipos" />
+    <meta property="og:description" content="Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia. Especializado en backend con Java, Kotlin y Node.js. Lidero la adopción de desarrollo asistido por IA en equipos de ingeniería." />
+    <meta property="og:image" content="https://luisfben.github.io/og-image.jpg" />
+    <meta property="og:image:width" content="1212" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Luis Fernando Benavides Rengifo — Ingeniero de Software Senior, 23 años de experiencia, adopción de IA en equipos de ingeniería" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale:alternate" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Luis Fernando Benavides Rengifo — Ingeniero de Software, adopción de IA en equipos" />
+    <meta name="twitter:description" content="Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia. Especializado en backend con Java, Kotlin y Node.js. Lidero la adopción de desarrollo asistido por IA en equipos de ingeniería." />
+    <meta name="twitter:image" content="https://luisfben.github.io/og-image.jpg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <title>Luis Fernando Benavides Rengifo - Software Project Development</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Luis Fernando Benavides Rengifo",
+        "jobTitle": "Ingeniero de Software Senior",
+        "description": "Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia. Especializado en backend con Java, Kotlin y Node.js. Lidero la adopción de desarrollo asistido por IA en equipos de ingeniería.",
+        "knowsAbout": ["Java", "Kotlin", "Node.js", "Spring Boot", "Microservicios", "AWS", "Kafka", "Docker", "Claude Code", "Desarrollo asistido por IA"],
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "Pontificia Universidad Javeriana Cali" },
+        "sameAs": ["https://www.linkedin.com/in/luis-fernando-benavides-rengifo", "https://github.com/Luisfben"],
+        "url": "https://luisfben.github.io/"
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <div style="max-width: 640px; margin: 40px auto; padding: 0 20px; font-family: sans-serif; line-height: 1.6; color: #1c2130;">
+        <h1>Luis Fernando Benavides Rengifo — Ingeniero de Software Senior</h1>
+        <p>Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia en tecnología, en proyectos para sectores como salud, educación, industrial, gubernamental y financiero. Especializado en backend con Java, con dominio también de Kotlin y Node.js, sobre arquitecturas de microservicios y cloud AWS.</p>
+        <p>Early adopter de desarrollo asistido por IA: lideré la adopción de LLM Coding Assistants como Claude Code en equipos de ingeniería, acelerando la entrega de valor y reduciendo deuda técnica.</p>
+        <p>Contacto: <a href="mailto:lfbenavides@gmail.com">lfbenavides@gmail.com</a> · <a href="https://www.linkedin.com/in/luis-fernando-benavides-rengifo">LinkedIn</a> · <a href="https://github.com/Luisfben">GitHub</a></p>
+        <p>Para ver el sitio completo, activa JavaScript en tu navegador.</p>
+      </div>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
