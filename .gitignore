@@ -23,6 +23,8 @@ dist-ssr/
 
 # Editor
 .vscode/
+.idea/
+.settings/
 *.swp
 *.swo
 *~
