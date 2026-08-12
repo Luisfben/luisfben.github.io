@@ -1,28 +1,41 @@
-import { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useEffect } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
+import es from '../locales/es.json';
+import en from '../locales/en.json';
 
 const LanguageContext = createContext();
 
+const translationsByLanguage = { es, en };
+
+const languageFromPathname = (pathname) =>
+  pathname === '/en' || pathname.startsWith('/en/') ? 'en' : 'es';
+
+const pathForLanguage = (pathname, targetLanguage) => {
+  const currentLanguage = languageFromPathname(pathname);
+  if (currentLanguage === targetLanguage) return pathname;
+
+  if (targetLanguage === 'en') {
+    return pathname === '/' ? '/en/' : `/en${pathname}`;
+  }
+
+  const stripped = pathname.replace(/^\/en/, '');
+  return stripped === '' ? '/' : stripped;
+};
+
 /**
  * LanguageProvider - Manages i18n state and translations
- * Dynamically imports translation files based on selected language
+ * The active language is derived from the URL (`/` = es, `/en/*` = en),
+ * not from local component state, so it can be pre-rendered per route.
  */
 export const LanguageProvider = ({ children }) => {
-  const [language, setLanguage] = useState('es');
-  const [translations, setTranslations] = useState({});
-  const [isLoading, setIsLoading] = useState(true);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  // Load translations when language changes
+  const language = languageFromPathname(location.pathname);
+  const translations = translationsByLanguage[language];
+
   useEffect(() => {
-    setIsLoading(true);
-    import(`../locales/${language}.json`)
-      .then((module) => {
-        setTranslations(module.default);
-        setIsLoading(false);
-      })
-      .catch((error) => {
-        console.error(`Error loading translations for ${language}:`, error);
-        setIsLoading(false);
-      });
+    document.documentElement.lang = language;
   }, [language]);
 
   /**
@@ -33,7 +46,7 @@ export const LanguageProvider = ({ children }) => {
   const t = (key) => {
     const keys = key.split('.');
     let result = translations;
-    
+
     for (const k of keys) {
       if (result && typeof result === 'object') {
         result = result[k];
@@ -41,12 +54,16 @@ export const LanguageProvider = ({ children }) => {
         return key; // Return key if translation not found
       }
     }
-    
+
     return result || key;
   };
 
+  const setLanguage = (targetLanguage) => {
+    navigate(pathForLanguage(location.pathname, targetLanguage));
+  };
+
   const toggleLanguage = () => {
-    setLanguage((prevLang) => (prevLang === 'es' ? 'en' : 'es'));
+    setLanguage(language === 'es' ? 'en' : 'es');
   };
 
   const value = {
@@ -54,7 +71,6 @@ export const LanguageProvider = ({ children }) => {
     setLanguage,
     toggleLanguage,
     t,
-    isLoading,
   };
 
   return (

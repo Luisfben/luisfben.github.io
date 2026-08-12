@@ -1,12 +1,8 @@
+import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './contexts/ThemeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Layout from './components/layout/Layout';
-import Hero from './components/sections/Hero';
-import About from './components/sections/About';
-import TechStack from './components/sections/TechStack';
-import Services from './components/sections/Services';
-import Portfolio from './components/sections/Portfolio';
-import Contact from './components/sections/Contact';
+import Home from './pages/Home';
 import './styles/global.css';
 
 /**
@@ -18,12 +14,11 @@ function App() {
     <ThemeProvider>
       <LanguageProvider>
         <Layout>
-          <Hero />
-          <About />
-          <TechStack />
-          <Services />
-          <Portfolio />
-          <Contact />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/en" element={<Home />} />
+            <Route path="/en/*" element={<Home />} />
+          </Routes>
         </Layout>
       </LanguageProvider>
     </ThemeProvider>
