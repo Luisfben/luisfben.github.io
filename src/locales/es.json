@@ -24,12 +24,9 @@
     },
     "experience": {
       "title": "Experiencia",
-      "years": "22+",
+      "years": "23",
       "yearsLabel": "años en la industria",
-      "projects": "100+",
-      "projectsLabel": "proyectos completados",
-      "clients": "50+",
-      "clientsLabel": "clientes satisfechos",
+      "sectorsCount": "5",
       "sectorsLabel": "sectores atendidos"
     },
     "expertise": {

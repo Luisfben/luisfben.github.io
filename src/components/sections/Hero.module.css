@@ -70,7 +70,7 @@
 /* Stats Card */
 .statsCard {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-4);
   animation: slideInRight 0.8s ease-out 0.2s backwards;
 }
@@ -163,10 +163,6 @@
     grid-template-columns: 1fr;
     gap: var(--space-6);
   }
-
-  .statsCard {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media (max-width: 768px) {
@@ -184,9 +180,5 @@
 
   .cta {
     flex-direction: column;
-  }
-
-  .statsCard {
-    grid-template-columns: 1fr;
   }
 }
