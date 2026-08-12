@@ -1,4 +1,4 @@
-import { SITE, urlForLanguage } from '../../content/site';
+import { SITE, urlForLanguage } from '../../content/site.js';
 
 /**
  * Builds the Person JSON-LD object for a given language.

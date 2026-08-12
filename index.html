@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--
-      Static defaults below describe the Spanish home page. This file is
-      still served as-is for both `/` and `/en/` until the prerender step
-      (next package) generates a distinct, language-correct file per route.
-      Values are kept in sync by hand with src/content/site.js for now.
+      Everything between SEO:START and SEO:END is regenerated per route by
+      scripts/prerender.mjs from src/content/site.js — what's here is only
+      the fallback used by `vite build`/`vite preview` on their own
+      (always Spanish/home), so this file stays valid without the
+      prerender step too. Don't hand-edit expecting it to reach production
+      unchanged; edit src/content/site.js and scripts/prerender.mjs instead.
     -->
+    <!-- SEO:START -->
     <title>Luis Fernando Benavides Rengifo — Ingeniero de Software, adopción de IA en equipos</title>
     <meta name="description" content="Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia. Especializado en backend con Java, Kotlin y Node.js. Lidero la adopción de desarrollo asistido por IA en equipos de ingeniería." />
     <link rel="canonical" href="https://luisfben.github.io/" />
@@ -36,10 +39,6 @@
     <meta name="twitter:description" content="Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia. Especializado en backend con Java, Kotlin y Node.js. Lidero la adopción de desarrollo asistido por IA en equipos de ingeniería." />
     <meta name="twitter:image" content="https://luisfben.github.io/og-image.jpg" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -53,9 +52,15 @@
         "url": "https://luisfben.github.io/"
       }
     </script>
+    <!-- SEO:END -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="root"></div>
+    <!-- NOSCRIPT:START -->
     <noscript>
       <div style="max-width: 640px; margin: 40px auto; padding: 0 20px; font-family: sans-serif; line-height: 1.6; color: #1c2130;">
         <h1>Luis Fernando Benavides Rengifo — Ingeniero de Software Senior</h1>
@@ -65,6 +70,7 @@
         <p>Para ver el sitio completo, activa JavaScript en tu navegador.</p>
       </div>
     </noscript>
+    <!-- NOSCRIPT:END -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
