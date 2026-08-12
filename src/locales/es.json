@@ -7,16 +7,16 @@
   },
   "hero": {
     "greeting": "Hola, soy Luis Fernando Benavides Rengifo",
-    "title": "Arquitecto de Software Senior",
-    "titleHighlight": "22+ años | Fintech & E-commerce | Mercado Libre",
-    "subtitle": "Desarrollando soluciones de alto impacto para empresas líderes como Mercado Libre, Rappi, Nequi y Protección. Especializado en arquitectura de microservicios, fintech y transformación digital con resultados comprobados: 90% reducción de errores, 90% mejora en rendimiento de transacciones.",
+    "title": "Ingeniero de Software Senior",
+    "titleHighlight": "23 años · Adopción de IA en equipos de ingeniería",
+    "subtitle": "23 años de experiencia en tecnología, especializado en backend con Java, Kotlin y Node.js sobre arquitecturas de microservicios y cloud AWS. Early adopter de desarrollo asistido por IA: lideré la adopción de LLM Coding Assistants como Claude Code en equipos de ingeniería, acelerando la entrega de valor y reduciendo deuda técnica.",
     "cta": "Ver mi trabajo",
     "ctaSecondary": "Contactar"
   },
   "about": {
     "title": "Sobre mí",
     "subtitle": "Experiencia y trayectoria profesional",
-    "intro": "Magíster en Ingeniería de Software (PUJ Cali, becario destacado Gobernación del Valle) con 22+ años desarrollando soluciones de alto impacto para empresas tecnológicas líderes de Latinoamérica: Mercado Libre, Rappi, Nequi y Protección. Certificado PMI, Scrum Master, CAPM e ITIL V3.\n\nEspecializado en arquitectura de microservicios, fintech, e-commerce y transformación digital. Autodidacta comprometido con la excelencia técnica y la mejora continua.",
+    "intro": "Ingeniero de Sistemas y Máster en Ingeniería de Software con 23 años de experiencia en tecnología, en proyectos para sectores como salud, educación, industrial, gubernamental y financiero. Especializado en backend con Java, con dominio también de Kotlin y Node.js, sobre arquitecturas de microservicios y cloud AWS. Cuento con experiencia en compañías con presencia en varios países de Latinoamérica, como Mercado Libre, Rappi y Nequi.\n\nSoy early adopter de herramientas de IA aplicadas al desarrollo de software: integración activa de LLM Coding Assistants (Claude Code, Windsurf/Vibe Coding), lo que me ha permitido acelerar la entrega de valor, reducir deuda técnica y liderar la adopción de estas prácticas en equipos de trabajo. Tuve la oportunidad de trabajar con una solución tipo SDD asistida por IA, lo que me dio experiencia real estandarizando el desarrollo a nivel de equipo.\n\nPerfil integral que combina experiencia en desarrollo, infraestructura (ITIL V3) y gestión de proyectos (CAPM, Scrum Master), con visión técnica y habilidades de liderazgo consolidadas a lo largo de la carrera.",
     "education": {
       "title": "Educación",
       "degree": "Magíster en Ingeniería de Software",
@@ -34,12 +34,12 @@
     },
     "expertise": {
       "title": "Áreas de Expertise",
-      "item1": "Microservices Architecture - Mercado Libre, Rappi, Nequi (90% reducción de errores)",
-      "item2": "Cloud & DevOps (AWS) - Lambda, EKS, Docker, Kubernetes, CI/CD",
-      "item3": "Backend Development - Java/Kotlin, Spring Boot, Kafka, Redis, PostgreSQL",
-      "item4": "Technical Leadership - Equipos fintech & e-commerce, Scrum Master certified",
-      "item5": "Digital Transformation - 90% mejora en rendimiento, 80% reducción de costos",
-      "item6": "Observability & Monitoring - Grafana, Splunk, New Relic, Kibana"
+      "item1": "Adopción de Desarrollo Asistido por IA - LLM Coding Assistants (Claude Code, Windsurf)",
+      "item2": "Backend Development - Java, Kotlin y Node.js, arquitecturas de microservicios y APIs REST",
+      "item3": "Cloud & DevOps (AWS) - despliegue y operación de sistemas distribuidos",
+      "item4": "Observability & Monitoring - Grafana, Splunk, New Relic, Kibana",
+      "item5": "Technical Leadership - liderazgo de equipos técnicos, Scrum Master certificado",
+      "item6": "Gestión de Proyectos e Infraestructura - ITIL V3, CAPM"
     }
   },
   "techStack": {
@@ -63,36 +63,36 @@
   "services": {
     "title": "Servicios",
     "subtitle": "Soluciones especializadas basadas en experiencia comprobada",
+    "aiAdoption": {
+      "title": "Consultoría de Adopción de Desarrollo Asistido por IA",
+      "description": "Diagnóstico y acompañamiento a equipos que quieren adoptar herramientas de IA como Claude Code de forma sostenible, no como experimento aislado. Basado en experiencia real liderando esta adopción a nivel de equipo.",
+      "features": [
+        "Diagnóstico de madurez y adopción de LLM Coding Assistants",
+        "Estandarización de prácticas de equipo (SDD, prompt engineering)",
+        "Reducción de deuda técnica con desarrollo asistido por IA",
+        "Mentoría y capacitación técnica",
+        "Acompañamiento sostenido, no un taller único"
+      ]
+    },
     "development": {
-      "title": "Desarrollo Backend & Arquitectura de Microservicios",
-      "description": "Desarrollo backend especializado con Java/Kotlin y Spring Boot. Diseño e implementación de arquitecturas de microservicios para fintech, e-commerce y banca digital. Experiencia comprobada en Mercado Libre, Rappi y Nequi.",
+      "title": "Desarrollo Backend Java / Kotlin Enterprise",
+      "description": "Desarrollo backend especializado con Java, Kotlin y Node.js. Diseño e implementación de arquitecturas de microservicios distribuidas sobre cloud AWS.",
       "features": [
-        "Backend con Java/Kotlin y Spring Boot",
-        "Arquitectura de microservicios escalables",
-        "APIs REST, Kafka, Redis, PostgreSQL",
+        "Backend con Java, Kotlin y Node.js",
+        "Arquitecturas de microservicios distribuidas",
+        "APIs REST, Kafka, bases de datos SQL y NoSQL",
         "Patrones: Circuit Breaker, Saga, Event Sourcing",
-        "Soluciones para fintech y e-commerce"
+        "Cloud AWS"
       ]
     },
-    "architecture": {
-      "title": "Cloud Architecture & DevOps",
-      "description": "Arquitectura cloud en AWS y implementación de prácticas DevOps. Migración de sistemas on-premise a la nube, containerización con Docker/Kubernetes y CI/CD. Logros: 90% mejora en rendimiento, reducción de despliegues de 20 a 2 minutos.",
-      "features": [
-        "AWS: Lambda, EKS, S3, CloudWatch, SNS",
-        "Docker, Kubernetes, containerización",
-        "CI/CD: Jenkins, GitLab, Azure DevOps",
-        "Observabilidad: Grafana, Splunk, New Relic",
-        "Migración on-premise a cloud"
-      ]
-    },
-    "consulting": {
-      "title": "Liderazgo Técnico & Transformación Digital",
-      "description": "Liderazgo de equipos técnicos en proyectos críticos y transformación digital. Implementación de metodologías ágiles, optimización de procesos y mentoría técnica. Resultados: 80% reducción de costos, 50% mejora en curva de aprendizaje.",
+    "leadership": {
+      "title": "Liderazgo Técnico & Estandarización",
+      "description": "Liderazgo de equipos técnicos, implementación de prácticas ágiles y estandarización de procesos de desarrollo para mejorar calidad y reducir deuda técnica.",
       "features": [
         "Liderazgo de equipos técnicos",
         "Implementación de Scrum y metodologías ágiles",
-        "Modernización de sistemas legacy",
-        "Reducción de costos operativos",
+        "Estandarización de prácticas de desarrollo",
+        "Reducción de deuda técnica",
         "Mentoría y capacitación técnica"
       ]
     }

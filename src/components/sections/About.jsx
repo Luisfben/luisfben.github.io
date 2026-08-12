@@ -73,7 +73,9 @@ const About = () => {
         <div className={styles.content}>
           {/* Introduction */}
           <div className={styles.intro}>
-            <p className={styles.introText}>{t('about.intro')}</p>
+            {t('about.intro').split('\n\n').map((paragraph, index) => (
+              <p key={index} className={styles.introText}>{paragraph}</p>
+            ))}
           </div>
 
           {/* Education & Experience Cards */}

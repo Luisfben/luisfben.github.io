@@ -56,9 +56,9 @@ const Footer = () => {
           <div className={styles.footerSection}>
             <h4 className={styles.sectionTitle}>{t('nav.services')}</h4>
             <ul className={styles.linkList}>
+              <li><a href="#services">{t('services.aiAdoption.title')}</a></li>
               <li><a href="#services">{t('services.development.title')}</a></li>
-              <li><a href="#services">{t('services.architecture.title')}</a></li>
-              <li><a href="#services">{t('services.consulting.title')}</a></li>
+              <li><a href="#services">{t('services.leadership.title')}</a></li>
             </ul>
           </div>
 

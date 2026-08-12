@@ -11,6 +11,15 @@ const Services = () => {
 
   const services = [
     {
+      key: 'aiAdoption',
+      icon: (
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+        </svg>
+      ),
+      color: 'var(--primary)',
+    },
+    {
       key: 'development',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -18,20 +27,10 @@ const Services = () => {
           <polyline points="8 6 2 12 8 18"/>
         </svg>
       ),
-      color: 'var(--primary)',
-    },
-    {
-      key: 'architecture',
-      icon: (
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
-          <polyline points="9 22 9 12 15 12 15 22"/>
-        </svg>
-      ),
       color: 'var(--primary-2)',
     },
     {
-      key: 'consulting',
+      key: 'leadership',
       icon: (
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
