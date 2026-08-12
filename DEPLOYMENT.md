@@ -111,7 +111,7 @@ git add .
 git commit -m "Actualizar contenido del portfolio"
 
 # 3. Push a GitHub
-git push origin main
+git push origin master
 
 # 4. GitHub Actions se ejecuta automáticamente
 #    - Instala dependencias
@@ -236,7 +236,7 @@ npm run dev -- --port 3000
 
 - [ ] GitHub Pages configurado en Settings
 - [ ] Archivo `.github/workflows/deploy.yml` existe
-- [ ] Push a `main` dispara el workflow
+- [ ] Push a `master` dispara el workflow
 - [ ] Workflow completa exitosamente (verde en Actions)
 - [ ] Sitio accesible en https://luisfben.github.io/
 - [ ] Todas las funcionalidades funcionan en producción
@@ -284,7 +284,7 @@ npm run preview         # Preview del build
 git status              # Ver cambios
 git add .               # Agregar todos los cambios
 git commit -m "msg"     # Commit con mensaje
-git push origin main    # Push a GitHub (dispara deployment)
+git push origin master  # Push a GitHub (dispara deployment)
 
 # Debugging
 npm run build           # Verificar que compile

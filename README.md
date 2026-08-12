@@ -239,6 +239,15 @@ const projects = [
 
 Similar to portfolio, edit the translations and update `Services.jsx`.
 
+### Escritos (agregar una pieza)
+
+1. Crea un archivo `.md` en `src/content/escritos/`, con un prefijo numérico que controla el orden en el listado (ej. `04-mi-nueva-pieza.md`).
+2. Completa el frontmatter: `slug`, `title`, `summary`, `date`, `keywords` (SEO) y, si quieres, `tags` (2-3 etiquetas cortas visibles en la tarjeta).
+3. Escribe el cuerpo en Markdown debajo del frontmatter.
+4. Corre `npm run build`: la pieza aparece sola en `/escritos`, genera su propia ruta (`/escritos/<slug>/`), su entrada en `sitemap.xml` y su JSON-LD — sin tocar ningún componente de React.
+
+Para editar una pieza existente, edita su `.md` y vuelve a compilar. La fecha no se muestra en el listado (es intencional); solo se usa en los metadatos.
+
 ### Testimonials
 
 Testimonials are completely defined in the translation files:
