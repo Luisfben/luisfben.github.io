@@ -62,8 +62,8 @@
     "title": "Services",
     "subtitle": "Specialized solutions based on proven experience",
     "aiAdoption": {
-      "title": "AI-Assisted Development Adoption Consulting",
-      "description": "Assessment and hands-on support for teams adopting AI tools like Claude Code as a sustainable practice, not a one-off experiment. Based on real experience leading this adoption at the team level.",
+      "title": "AI Adoption Consulting",
+      "description": "Assessment and hands-on support for teams adopting AI tools like Claude Code as a sustainable practice, not a one-off experiment.",
       "features": [
         "Maturity assessment for LLM Coding Assistant adoption",
         "Team practice standardization (SDD, prompt engineering)",
@@ -263,9 +263,7 @@
     }
   },
   "footer": {
-    "rights": "All rights reserved",
-    "madeWith": "Made with",
-    "by": "by"
+    "rights": "All rights reserved"
   },
   "theme": {
     "toggle": "Toggle theme",

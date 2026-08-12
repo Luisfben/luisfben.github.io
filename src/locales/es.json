@@ -62,8 +62,8 @@
     "title": "Servicios",
     "subtitle": "Soluciones especializadas basadas en experiencia comprobada",
     "aiAdoption": {
-      "title": "Consultoría de Adopción de Desarrollo Asistido por IA",
-      "description": "Diagnóstico y acompañamiento a equipos que quieren adoptar herramientas de IA como Claude Code de forma sostenible, no como experimento aislado. Basado en experiencia real liderando esta adopción a nivel de equipo.",
+      "title": "Consultoría de Adopción de IA",
+      "description": "Diagnóstico y acompañamiento a equipos que quieren adoptar herramientas de IA como Claude Code de forma sostenible, no como experimento aislado.",
       "features": [
         "Diagnóstico de madurez y adopción de LLM Coding Assistants",
         "Estandarización de prácticas de equipo (SDD, prompt engineering)",
@@ -262,9 +262,7 @@
     }
   },
   "footer": {
-    "rights": "Todos los derechos reservados",
-    "madeWith": "Hecho con",
-    "by": "por"
+    "rights": "Todos los derechos reservados"
   },
   "theme": {
     "toggle": "Cambiar tema",

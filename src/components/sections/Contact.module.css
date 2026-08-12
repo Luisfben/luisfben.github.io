@@ -4,7 +4,7 @@
 
 .description {
   max-width: 600px;
-  margin: 0 auto var(--space-8);
+  margin: 0 auto var(--space-6);
   text-align: center;
   font-size: var(--text-lg);
   color: var(--text-secondary);
@@ -25,7 +25,7 @@
 .form {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-3);
 }
 
 .formGroup {
@@ -60,7 +60,7 @@
 
 .textarea {
   resize: vertical;
-  min-height: 120px;
+  min-height: 100px;
   font-family: inherit;
 }
 
@@ -92,7 +92,7 @@
 .infoSection {
   display: flex;
   flex-direction: column;
-  gap: var(--space-4);
+  gap: var(--space-3);
   animation: fadeIn 0.6s ease-out 0.2s backwards;
 }
 
