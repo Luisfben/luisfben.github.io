@@ -3,6 +3,7 @@
     "about": "About",
     "services": "Services",
     "portfolio": "Portfolio",
+    "escritos": "Writing (in Spanish)",
     "contact": "Contact"
   },
   "hero": {
@@ -221,6 +222,16 @@
         "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/diseno-y-desarrollo-de-software-para-el.html"
       }
     }
+  },
+  "escritosPage": {
+    "eyebrow": "Technical notes",
+    "title": "Writing",
+    "lede": "Real cases of how I apply AI at work — technical judgment, results, and what didn't work the first time.",
+    "readMore": "Read",
+    "backToList": "← Writing",
+    "backToListLong": "Back to Writing",
+    "notFound": "We couldn't find this piece.",
+    "spanishNotice": "This section is written in Spanish. Individual pieces are not translated."
   },
   "contact": {
     "title": "Contact",

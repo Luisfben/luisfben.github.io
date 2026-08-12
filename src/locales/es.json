@@ -3,6 +3,7 @@
     "about": "Sobre mí",
     "services": "Servicios",
     "portfolio": "Portafolio",
+    "escritos": "Escritos",
     "contact": "Contacto"
   },
   "hero": {
@@ -221,6 +222,15 @@
         "link": "https://luisfernandobenavidesrengifo.blogspot.com/2019/01/diseno-y-desarrollo-de-software-para-el.html"
       }
     }
+  },
+  "escritosPage": {
+    "eyebrow": "Notas técnicas",
+    "title": "Escritos",
+    "lede": "Casos reales de cómo aplico IA en el trabajo — criterio técnico, resultados, y lo que no funcionó a la primera.",
+    "readMore": "Leer",
+    "backToList": "← Escritos",
+    "backToListLong": "Volver a Escritos",
+    "notFound": "No encontramos esta pieza."
   },
   "contact": {
     "title": "Contacto",

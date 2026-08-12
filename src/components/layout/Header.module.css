@@ -56,11 +56,20 @@
   font-size: var(--text-base);
   font-weight: var(--font-medium);
   color: var(--text-secondary);
+  text-decoration: none;
   background: none;
   border: none;
   cursor: pointer;
   transition: color var(--transition-fast);
   position: relative;
+}
+
+.navLinkActive {
+  color: var(--text);
+}
+
+.navLinkActive::after {
+  width: 100%;
 }
 
 .navLink::after {

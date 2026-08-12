@@ -23,6 +23,16 @@ export const SITE = {
     en: "Systems Engineer with a Master's in Software Engineering and 23 years of experience. Specialized in backend development with Java, Kotlin, and Node.js. I lead the adoption of AI-assisted development in engineering teams.",
   },
 
+  escritosListTitle: {
+    es: 'Escritos — Luis Fernando Benavides Rengifo',
+    en: 'Writing (in Spanish) — Luis Fernando Benavides Rengifo',
+  },
+
+  escritosListDescription: {
+    es: 'Casos reales de cómo aplico IA en el trabajo — criterio técnico, resultados, y lo que no funcionó a la primera.',
+    en: 'Real cases of how I apply AI at work — technical judgment and results. Written in Spanish.',
+  },
+
   ogImage: '/og-image.jpg',
   ogImageAlt: {
     es: 'Luis Fernando Benavides Rengifo — Ingeniero de Software Senior, 23 años de experiencia, adopción de IA en equipos de ingeniería',
