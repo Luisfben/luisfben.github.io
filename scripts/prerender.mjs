@@ -3,7 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { render, escritos } from '../dist-ssr/entry-server.js';
 import { SITE, urlForLanguage } from '../src/content/site.js';
-import { renderSeoHead, renderArticleHead, renderNoscript } from '../src/lib/seo/staticHtml.js';
+import { renderSeoHead, renderArticleHead } from '../src/lib/seo/staticHtml.js';
 import { buildEscritosListJsonLd } from '../src/lib/seo/articleJsonLd.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -52,7 +52,6 @@ const escritosListJsonLd = JSON.stringify(buildEscritosListJsonLd(escritos));
 
 for (const route of ROUTES) {
   const appHtml = render(route.path);
-  const noscript = renderNoscript(route.language);
 
   let seoHead;
   if (route.kind === 'escrito') {
@@ -74,10 +73,6 @@ for (const route of ROUTES) {
     .replace(
       /<!-- SEO:START -->[\s\S]*?<!-- SEO:END -->/,
       `<!-- SEO:START -->\n    ${seoHead}\n    <!-- SEO:END -->`,
-    )
-    .replace(
-      /<!-- NOSCRIPT:START -->[\s\S]*?<!-- NOSCRIPT:END -->/,
-      `<!-- NOSCRIPT:START -->\n    <noscript>\n      ${noscript}\n    </noscript>\n    <!-- NOSCRIPT:END -->`,
     )
     .replace('<html lang="es"', `<html lang="${route.language}"`)
     .replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`);

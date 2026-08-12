@@ -16,6 +16,9 @@ const pathForLanguage = (pathname, targetLanguage) => {
   if (currentLanguage === targetLanguage) return pathname;
 
   if (targetLanguage === 'en') {
+    // Escritos pieces have no English version (R6) — send the toggle to
+    // the English listing instead of a route that doesn't exist.
+    if (/^\/escritos\/[^/]+/.test(pathname)) return '/en/escritos';
     return pathname === '/' ? '/en/' : `/en${pathname}`;
   }
 

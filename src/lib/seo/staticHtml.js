@@ -96,23 +96,3 @@ export const renderArticleHead = (escrito) => {
       ${jsonLd}
     </script>`;
 };
-
-/**
- * Regenerates the <noscript> fallback summary for a given language.
- */
-export const renderNoscript = (language) => {
-  const isEnglish = language === 'en';
-  const heading = `${SITE.name} — ${SITE.jobTitle[language] ?? SITE.jobTitle.es}`;
-  const description = SITE.description[language] ?? SITE.description.es;
-  const contactLabel = isEnglish ? 'Contact' : 'Contacto';
-  const jsNotice = isEnglish
-    ? 'To see the full site, please enable JavaScript in your browser.'
-    : 'Para ver el sitio completo, activa JavaScript en tu navegador.';
-
-  return `<div style="max-width: 640px; margin: 40px auto; padding: 0 20px; font-family: sans-serif; line-height: 1.6; color: #1c2130;">
-        <h1>${escapeHtml(heading)}</h1>
-        <p>${escapeHtml(description)}</p>
-        <p>${contactLabel}: <a href="mailto:lfbenavides@gmail.com">lfbenavides@gmail.com</a> · <a href="${SITE.sameAs[0]}">LinkedIn</a> · <a href="${SITE.sameAs[1]}">GitHub</a></p>
-        <p>${escapeHtml(jsNotice)}</p>
-      </div>`;
-};
